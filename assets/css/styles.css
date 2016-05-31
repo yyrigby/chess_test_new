@@ -1,0 +1,172 @@
+.wrapper {
+	width: 90%;
+	margin: 0px auto;
+}
+
+/* Home, login and registration form */
+.jumbotron {
+	background-image: url('../img/chessal.PNG');
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+	.jumbotron .container h1, .jumbotron .container p {
+		color: white;
+		display: block;
+	}
+	#big_button {
+		background-color: #333333;
+		color: #FFFFE0;
+		border: black;
+	}
+.box {
+	padding-top: 20px;
+	padding-left: 100px;
+	width: 400px;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;	
+}
+	#panel_box, #panel_box2 {
+		width: 240px;
+		border-color: #FFFE9A;
+	}
+	#panel_heading, #panel_heading2 {
+		background-color: #FFFE9A;
+	    padding: 10px 15px;
+	    border-bottom: 1px solid transparent;
+	    border-top-left-radius: 3px;
+	    border-top-right-radius: 3px;
+	    background-color: #FFFE9A;
+	    border-color: #FFFE9A;
+	}
+	#panel_heading h3, #panel_heading2 h3 {
+	    color: #333333;
+		font-weight: bold;
+	}
+.error {
+	color: red;
+}
+	.error p {
+		margin-bottom: 3px;
+		font-size: .8em;
+	}
+.confirm {
+	color: green;
+}
+	.confirm p {
+		font-size: .8em;
+	}
+form{
+	width: 400px;
+	margin-bottom: 40px;
+	position: relative;
+}
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+form input {
+	width: 200px;
+	margin-bottom: 5px;
+}
+form .btn_yellow {
+	color: #333333;
+	background-color: #FFFE57;
+	box-shadow: gray 3px 3px 3px;
+	width: auto;
+	display: block;
+	margin-top: 10px;
+	padding: 2px 5px;
+	font-size: .9em;
+	position: absolute;
+	right: 200px;
+}
+
+/* My Games and Paste PGN buttons */
+#pgn_buttons {
+	margin-top: 10px;
+}
+#pgn_buttons a, #pgn_buttons a:hover #pgn_buttons a:active, #my_games_buttons a, #my_games_buttons a:hover #my_games_buttons a:active {
+	background-color: #FFFE57;
+	color: #333333;
+	border: 1px solid #ffcc00;
+}
+
+/* Paste PGN page */
+#paste_pgn_title {
+	text-align: center;
+}
+
+#paste_pgn_form {
+	width: 100%;
+}
+	#pgn_form_left {
+		width: 400px;
+	}
+	#pgn_form_left label {
+		width: 30%;
+		display: inline-block;
+		margin-top: 10px;
+	}
+	#pgn_form_left .block_label {
+		display: block;
+		width: 80%;
+	}
+		#pgn_form_left textarea {
+			width: 90%;
+			height: 150px;
+		}
+	.checkbox {
+		width: auto;
+		display: inline;
+	}
+
+/* Game Page css */
+#board {
+	width: 80%;
+	margin: 0px auto 20px;
+	padding: 20px;
+	border: 2px solid #E7E7E7;
+	background-color: #F8F8F8;
+	position: relative;
+}
+
+#boardHeaders {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+	#boardHeaders span {
+		margin-right: 10px;
+		font-size: 1.3em;
+		font-weight: bold;
+		display: inline-block;
+	}
+
+	#boardHeaders span:last-child {
+		font-size: 1em;
+		font-weight: normal;
+		display: block;
+	}
+#headerButton {
+	/*float: right;*/
+	position: absolute;
+	right: 10px;
+}
+	#headerButton button {
+		margin: 0px 10px;
+		font-size: 1.3em;
+	}
+.outerLeftBoard, .outerRightBoard {
+	display: inline-block;
+	vertical-align: top;
+	width: 500px;
+	margin: 0px auto 20px;
+}
+
+/* user edit profile box */
+.edit_box {
+	width: 300px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
