@@ -6,10 +6,10 @@ class Games extends CI_Controller {
 	public function my_games()
 	{
 		// $this->output->enable_profiler();
-		if(!$this->session->userdata('logged_in'))
-		{
-			redirect('/');
-		} else {
+		// if(!$this->session->userdata('logged_in'))
+		// {
+		// 	redirect('/');
+		// } else {
 			$this->load->model('game');
 			$games = $this->game->get_games($this->session->userdata('user_id'));
 
@@ -30,7 +30,7 @@ class Games extends CI_Controller {
 
 			$this->load->view('header');
 			$this->load->view('my_games', $data);
-		}
+		// }
 	}
 
 	public function view_game($game_number)
