@@ -5,7 +5,7 @@ class Games extends CI_Controller {
 	// grabs the user's games from the database and loads them to the my_games
 	public function my_games()
 	{
-		// $this->output->enable_profiler();
+		$this->output->enable_profiler();
 		// if(!$this->session->userdata('logged_in'))
 		// {
 		// 	redirect('/');
